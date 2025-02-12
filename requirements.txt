@@ -1,4 +1,4 @@
-openapi
+openai
 streamlit
 watchdog
 python-dotenv
