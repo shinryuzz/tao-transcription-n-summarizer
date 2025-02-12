@@ -1,4 +1,3 @@
-import os
 import base64
 
 import streamlit as st
@@ -8,7 +7,7 @@ from dotenv import load_dotenv
 
 
 load_dotenv(verbose=True)
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 

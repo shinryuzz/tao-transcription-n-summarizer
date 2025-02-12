@@ -170,5 +170,10 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+# streamlit
+secrets.toml
+
+# assets
 input/
 output/
+
