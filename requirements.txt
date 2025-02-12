@@ -1,0 +1,4 @@
+openapi
+streamlit
+watchdog
+python-dotenv
